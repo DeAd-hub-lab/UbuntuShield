@@ -19,3 +19,21 @@ Features Included:
 
 5.) Updates option.
 
+Instructions:
+
+Run the shield.py script in the linux terminal in order for the features to work properly.
+shield.py will not redirect to main.py because of the user id and Password. 
+User_ID = 12323003
+password = Naaz@123 
+        or 
+User_ID = 12324783
+password = kunal@123
+
+After login , if the screen dosent redirect to main.py , please run the main.py manually {Python3 main.py}
+
+There several options are available in order to improve ubuntu distro security structure.
+
+NOTE: Run all file from linux distro from bash command line interface. It wont work if you'll run on non linux distro; ex - windows.
+
+
+
