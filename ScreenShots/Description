@@ -1,0 +1,7 @@
+First Decided to create the UI with figma , then converting the figma formatted file to tkinter file using external repo: https://github.com/ParthJadhav/Tkinter-Designer
+
+Things didn't went well , the gui was not fully functionable ; therefore decided to code on our own.
+
+Used Python tkinter for the gui and Bash scripting for the Command which needs to be executed on the Linux distro.
+
+** Currently Working with Functionality development in the GUI software.
