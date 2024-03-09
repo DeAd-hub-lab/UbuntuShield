@@ -1,6 +1,10 @@
 First Decided to create the UI with figma , then converting the figma formatted file to tkinter file using external repo: https://github.com/ParthJadhav/Tkinter-Designer
 
+The figma ui is shown in the screenshot_below.(It was looking good and beautiful but the code produced after conversion was not flexible therefore we went to code it on our own.)
 Things didn't went well , the gui was not fully functionable ; therefore decided to code on our own.
+
+Bash scripting didn't took much time... Few commands where only there to be used ; though for some function whole program was written in bash like Website block , Port Block feature with zenity.{It just gives 
+GUI format to the code , pretty handy library} 
 
 Used Python tkinter for the gui and Bash scripting for the Command which needs to be executed on the Linux distro.
 
