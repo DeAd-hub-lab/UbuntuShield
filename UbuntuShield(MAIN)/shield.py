@@ -9,13 +9,13 @@ def handle_log():
     print(email,pswd)
     if (email == '12323003' and pswd == 'Naaz@123'):
         current_directory = os.path.dirname(os.path.realpath(__file__))
-        relative_path_to_script = "scripts/main.sh"
+        relative_path_to_script = "scripts/Main.sh"
         absolute_path_to_script = os.path.join(current_directory, relative_path_to_script)
         subprocess.run(["bash", absolute_path_to_script])
         messagebox.showinfo('Yes', 'You Logged in succesfully')
     elif (email == '12324783' and pswd == 'kunal@123'): 
         current_directory = os.path.dirname(os.path.realpath(__file__))
-        relative_path_to_script = "scripts/main.sh"
+        relative_path_to_script = "scripts/Main.sh"
         absolute_path_to_script = os.path.join(current_directory, relative_path_to_script)
         subprocess.run(["bash", absolute_path_to_script])
         messagebox.showinfo('Yes', 'You Logged in succesfully')
