@@ -9,6 +9,7 @@ Hardening of an operating system involves implementation of security measure to 
 In this software we are providing with various functionalites whicb will help in securing your Linux distro from threat Actors.
 
 Features Included:
+
 1.) USB Blocker
 
 2.) Open Port Disable
