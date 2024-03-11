@@ -23,7 +23,7 @@ def home():
         if var.get() == 1:
             messagebox.showinfo("Information", "Ubuntu Shield is enabled!")
         else:
-            messagebox.showinfo("Information", "Ubuntu Shield is not enabled.")
+            messagebox.showinfo("Information", "Ubuntu Shield Disabled!.")
 
     Button(home_btn, text="Ok", command=showInfo).pack()
 
@@ -33,7 +33,7 @@ def home():
 def b1():
     b1_btn = Frame(main_frame)
     var1 = IntVar()
-    checkbox1 = Checkbutton(b1_btn, text="Enable Port Blco", variable=var1, font=('Bold', 16))
+    checkbox1 = Checkbutton(b1_btn, text="Enable Port Block", variable=var1, font=('Bold', 16))
     checkbox1.pack()
     lb = Label(b1_btn, text='Port Blocking is a security feature \nthat allows users to control access to specific network ports on their systems or devices.\n By selectively blocking ports,\n users can prevent unauthorized network traffic\n from entering or leaving their network,\n enhancing overall security posture. \nThis feature is vital for organizations looking to protect against external threats,\n such as hacking attempts or malware infections\n, by restricting access to vulnerable ports commonly targeted by attackers.\n With port blocking, users can effectively manage network traffic and mitigate\n potential security risks', font=('Bold',16))
     lb.pack()
@@ -48,7 +48,7 @@ def b1():
             subprocess.run(['bash', absolute_script_path])
             messagebox.showinfo("Information", "Port Block is enabled!")
         else:
-            messagebox.showinfo("Information", "Port Block is not enabled.")
+            messagebox.showinfo("Information", "Port Block Disabled!")
 
     Button(b1_btn, text="Ok", command=showInfo1).pack()
 
@@ -71,7 +71,7 @@ def b2():
             subprocess.run(['bash', absolute_script_path])
             messagebox.showinfo("Information", "Website Blocker is enabled!")
         else:
-            messagebox.showinfo("Information", "Website Blocker is not enabled.")
+            messagebox.showinfo("Information", "Website Blocker Disabled!")
 
     Button(b2_btn, text="Ok", command=showInfo1).pack()
 
@@ -91,7 +91,7 @@ def b3():
             subprocess.run(['bash', absolute_script_path])
             messagebox.showinfo("Information", "SE Linux  is enabled!")
         else:
-            messagebox.showinfo("Information", "SE Linux  is not enabled.")
+            messagebox.showinfo("Information", "SE Linux disabled!")
 
     Button(b3_btn, text="Ok", command=showInfo1).pack()
 
@@ -116,7 +116,7 @@ def b4():
             relative_script_path = 'scripts/USB_enable.sh'
             absolute_script_path = os.path.join(script_dir, relative_script_path)
             subprocess.run(['bash', absolute_script_path])
-            messagebox.showinfo("Information", "USB Block is not enabled.")
+            messagebox.showinfo("Information", "USB Block disabled!")
 
     Button(b4_btn, text="Ok", command=showInfo1).pack()
 
@@ -134,9 +134,9 @@ def b5():
             relative_script_path = 'scripts/update.sh'
             absolute_script_path = os.path.join(script_dir, relative_script_path)
             subprocess.run(['bash', absolute_script_path])
-            messagebox.showinfo("Information", "Updates is enabled!")
+            messagebox.showinfo("Information", "Update in Progress!")
         else:
-            messagebox.showinfo("Information", "Updates is not enabled.")
+            messagebox.showinfo("Information", "Updates Disabled!")
 
     Button(b5_btn, text="Ok", command=showInfo1).pack()
 
